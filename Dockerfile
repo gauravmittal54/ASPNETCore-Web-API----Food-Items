@@ -6,7 +6,7 @@ WORKDIR /app
 COPY ASPNETCore-Web-API----Food-Items-main/WebApiAspNetCore/WebApiAspNetCore.csproj ./
 RUN dotnet restore
 
-# Copy the entire project
+# Copy the rest of the application files
 COPY . .
 
 # Build the application
