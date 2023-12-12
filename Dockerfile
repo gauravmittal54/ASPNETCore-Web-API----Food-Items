@@ -2,6 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
+RUN dotnet build
 # Copy the project file and restore dependencies
 COPY ASPNETCore-Web-API----Food-Items-main/WebApiAspNetCore/WebApiAspNetCore.csproj ./
 RUN dotnet restore
