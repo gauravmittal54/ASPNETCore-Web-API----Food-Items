@@ -7,7 +7,7 @@ COPY ASPNETCore-Web-API----Food-Items/WebApiAspNetCore/WebApiAspNetCore.csproj .
 RUN dotnet restore
 
 # Copy the rest of the application files
-COPY ASPNETCore-Web-API----Food-Items-main/. ./
+COPY ASPNETCore-Web-API----Food-Items/. ./
 
 # Build the application
 RUN dotnet publish -c Release -o out
