@@ -4,11 +4,11 @@ This project showcases a simple ASP.NET Core Web API for managing food items. It
 
 # Getting Started
 
-# Prerequisites
+## Prerequisites
 - .NET SDK 8.0
 - Docker
 
-# Building and Running
+## Building and Running
 1. Clone the repository:
   ```bash
   git clone https://github.com/gauravmittal54/ASPNETCore-Web-API----Food-Items.git
